@@ -33,12 +33,12 @@ function About() {
             </div>
             <hr />
             <div className="about-achivement">
-                <h1>7+</h1>
+                <h1>9+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achivement">
-                <h1>10+</h1>
+                <h1>15+</h1>
                 <p>Happy Clients</p>
             </div>
             <hr />

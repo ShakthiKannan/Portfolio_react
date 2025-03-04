@@ -10,7 +10,7 @@ export const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "e82591fe-af22-4a24-80e1-dd3da223acce");
+        formData.append("access_key", "943918dc-f83b-4b1b-95bb-acd039841210");
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -41,15 +41,15 @@ export const Contact = () => {
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" />
-                        <p>230819.it@rmkec.ac.in</p>
+                        <p>230651.it@rmkec.ac.in</p>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" />
-                        <p>+91-9087654321</p>
+                        <p>+91-6382302891</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" />
-                        <p>Chennai, Tamil Nadu</p>
+                        <p>Theni, Tamil Nadu</p>
                     </div>
                 </div>
             </div>
