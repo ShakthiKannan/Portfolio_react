@@ -8,6 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-left">
+                <img src={logo} alt="" className='imgs'/>
                 <p>I am a FullStack developer from, TamilNadu with 1 years of experience in companies like Microsoft ,ect..</p>
                 
             </div>
