@@ -92,3 +92,17 @@
 
     }
 }
+.hero span{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(18),cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{border-color:  transparent;}
+}
+@keyframes typing {
+    from{width: 0;}
+    
+}
