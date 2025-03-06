@@ -6,12 +6,11 @@ export const Hero = () => {
   return (
     <div id="home" className='hero'>
         <img src={profile_img} alt="" className='imgs-h'/>
-        <h1><span>I'm Shakthi K,</span> 
-        FullStack Developer</h1>
+        <h1><span>I'm Shakthi K,</span> FullStack Developer</h1>
         <p>I am a FullStack developer from Tamil Nadu,with 2 year of experience in multiple project </p>
         <div className='hero-action'>
-            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-            <div className="hero-resume">My resume</div>
+            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
+            <div className="hero-resume">My Resume</div>
         </div>
     </div>
   )
